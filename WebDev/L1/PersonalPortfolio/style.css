@@ -53,7 +53,7 @@ nav ul li a:hover{
     color:#ffd700;
 }
 
-/* Hero */
+
 
 .hero{
     min-height:100vh;
@@ -79,6 +79,20 @@ nav ul li a:hover{
     font-size:20px;
     margin-bottom:30px;
 }
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
 
 .btn{
     display:inline-block;
@@ -94,7 +108,7 @@ nav ul li a:hover{
     background:#e68900;
 }
 
-/* Sections */
+
 
 section{
     padding:80px 8%;
@@ -132,7 +146,7 @@ section h2{
     margin-bottom:15px;
 }
 
-/* Contact */
+
 
 form{
     max-width:550px;
@@ -171,7 +185,7 @@ button:hover{
     background:#0056cc;
 }
 
-/* Footer */
+
 
 footer{
     background:#222;
@@ -181,7 +195,6 @@ footer{
     margin-top:40px;
 }
 
-/* Responsive */
 
 @media(max-width:768px){
 
